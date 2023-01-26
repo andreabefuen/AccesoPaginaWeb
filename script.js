@@ -63,7 +63,7 @@ function validateSamePassword() {
 
 function validarCampos() {
     console.log("validando campos");
-    if (!validateEmail() || !validateName() || !validateSamePassword()) {
+    if (!validateName()||  !validateEmail() || !validateSamePassword()) {
         formError.style.display = 'block';
         formError.innerHTML = "<img src='images/error-icon.svg'>" + " COMPRUEBA LOS CAMPOS INTRODUCIDOS";
         setTimeout(function () { formError.style.display = 'none'; }, 3000);
