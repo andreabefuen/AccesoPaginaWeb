@@ -51,3 +51,18 @@ body{
 .form-acceso .controls-button:hover{
     background-color: rgb(118, 87, 189);
 }
+.div-controls{
+    position: relative;
+}
+
+.div-controls span{
+    position: absolute;
+    right: 4px;
+    margin-top: 10px;
+    color: red;
+}
+
+.form-acceso span{
+    color:red;
+}
+
