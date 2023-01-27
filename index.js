@@ -68,6 +68,9 @@ function validarCampos() {
         formError.innerHTML = "<img src='images/error-icon.svg'>" + " COMPRUEBA LOS CAMPOS INTRODUCIDOS";
         setTimeout(function () { formError.style.display = 'none'; }, 3000);
         return false;
-        
+    }
+    else {
+        alert("El registro ha sido realizado");
+        return true;
     }
 }
